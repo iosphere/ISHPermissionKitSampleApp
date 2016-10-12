@@ -95,7 +95,7 @@
         [alert addAction:[UIAlertAction actionWithTitle:@"Too bad" style:UIAlertActionStyleCancel handler:nil]];
         // if weakPermissionsVC still has a parent, present from there else present from root
         UIViewController *presentingVC = weakPermissionsVC.parentViewController ? weakPermissionsVC : rootVC;
-        [presentingVC presentViewController:alert animated:nil completion:nil];
+        [presentingVC presentViewController:alert animated:YES completion:nil];
     }];
 
     if (permissionsVC) {
