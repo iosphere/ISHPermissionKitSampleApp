@@ -10,11 +10,58 @@
 		1B68A9351DAE78BE00DF2F38 /* GrantedPermissionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68A9311DAE78BE00DF2F38 /* GrantedPermissionsViewController.m */; };
 		1B68A9361DAE78BE00DF2F38 /* SamplePermissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B68A9331DAE78BE00DF2F38 /* SamplePermissionViewController.m */; };
 		1B68A9371DAE78BE00DF2F38 /* SamplePermissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B68A9341DAE78BE00DF2F38 /* SamplePermissionViewController.xib */; };
+		1B68A9471DAE7AEA00DF2F38 /* ISHPermissionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B68A9421DAE7AB300DF2F38 /* ISHPermissionKit.framework */; };
+		1B68A9481DAE7AEA00DF2F38 /* ISHPermissionKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B68A9421DAE7AB300DF2F38 /* ISHPermissionKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1BBD90EA1DAE781500712EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD90E91DAE781500712EDD /* main.m */; };
 		1BBD90ED1DAE781500712EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD90EC1DAE781500712EDD /* AppDelegate.m */; };
 		1BBD90F51DAE781500712EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD90F41DAE781500712EDD /* Assets.xcassets */; };
 		1BBD90F81DAE781500712EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD90F61DAE781500712EDD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B68A9411DAE7AB300DF2F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCC1BFA5195B174200362559;
+			remoteInfo = ISHPermissionKit;
+		};
+		1B68A9431DAE7AB300DF2F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCAEF7CA195C60070074EB5B;
+			remoteInfo = ISHPermissionKitLib;
+		};
+		1B68A9451DAE7AB300DF2F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCC1BFB0195B174200362559;
+			remoteInfo = ISHPermissionKitTests;
+		};
+		1B68A9491DAE7AEA00DF2F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC1BFA4195B174200362559;
+			remoteInfo = ISHPermissionKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B68A94B1DAE7AEB00DF2F38 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B68A9481DAE7AEA00DF2F38 /* ISHPermissionKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B68A9301DAE78BE00DF2F38 /* GrantedPermissionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrantedPermissionsViewController.h; sourceTree = "<group>"; };
@@ -22,6 +69,8 @@
 		1B68A9321DAE78BE00DF2F38 /* SamplePermissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamplePermissionViewController.h; sourceTree = "<group>"; };
 		1B68A9331DAE78BE00DF2F38 /* SamplePermissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplePermissionViewController.m; sourceTree = "<group>"; };
 		1B68A9341DAE78BE00DF2F38 /* SamplePermissionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SamplePermissionViewController.xib; sourceTree = "<group>"; };
+		1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ISHPermissionKit.xcodeproj; path = submodules/ISHPermissionKit/ISHPermissionKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1B68A94D1DAE7B2A00DF2F38 /* ISHPermissionKitAppConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ISHPermissionKitAppConfiguration.xcconfig; path = submodules/ISHPermissionKitAppConfiguration.xcconfig; sourceTree = "<group>"; };
 		1BBD90E51DAE781500712EDD /* ISHPermissionKitSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISHPermissionKitSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBD90E91DAE781500712EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BBD90EB1DAE781500712EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,16 +85,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B68A9471DAE7AEA00DF2F38 /* ISHPermissionKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B68A93A1DAE7AA700DF2F38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */,
+			);
+			name = Frameworks;
+			path = ISHPermissionKitSampleApp;
+			sourceTree = "<group>";
+		};
+		1B68A93C1DAE7AB300DF2F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B68A9421DAE7AB300DF2F38 /* ISHPermissionKit.framework */,
+				1B68A9441DAE7AB300DF2F38 /* libISHPermissionKitLib.a */,
+				1B68A9461DAE7AB300DF2F38 /* ISHPermissionKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1BBD90DC1DAE781500712EDD = {
 			isa = PBXGroup;
 			children = (
+				1B68A94D1DAE7B2A00DF2F38 /* ISHPermissionKitAppConfiguration.xcconfig */,
 				1BBD90E71DAE781500712EDD /* ISHPermissionKitSampleApp */,
+				1B68A93A1DAE7AA700DF2F38 /* Frameworks */,
 				1BBD90E61DAE781500712EDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,9 +139,6 @@
 				1B68A9321DAE78BE00DF2F38 /* SamplePermissionViewController.h */,
 				1B68A9331DAE78BE00DF2F38 /* SamplePermissionViewController.m */,
 				1B68A9341DAE78BE00DF2F38 /* SamplePermissionViewController.xib */,
-				1BBD90F41DAE781500712EDD /* Assets.xcassets */,
-				1BBD90F61DAE781500712EDD /* LaunchScreen.storyboard */,
-				1BBD90F91DAE781500712EDD /* Info.plist */,
 				1BBD90E81DAE781500712EDD /* Supporting Files */,
 			);
 			path = ISHPermissionKitSampleApp;
@@ -79,6 +147,9 @@
 		1BBD90E81DAE781500712EDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1BBD90F41DAE781500712EDD /* Assets.xcassets */,
+				1BBD90F61DAE781500712EDD /* LaunchScreen.storyboard */,
+				1BBD90F91DAE781500712EDD /* Info.plist */,
 				1BBD90E91DAE781500712EDD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -94,10 +165,12 @@
 				1BBD90E11DAE781500712EDD /* Sources */,
 				1BBD90E21DAE781500712EDD /* Frameworks */,
 				1BBD90E31DAE781500712EDD /* Resources */,
+				1B68A94B1DAE7AEB00DF2F38 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B68A94A1DAE7AEA00DF2F38 /* PBXTargetDependency */,
 			);
 			name = ISHPermissionKitSampleApp;
 			productName = ISHPermissionKitSampleApp;
@@ -130,12 +203,42 @@
 			mainGroup = 1BBD90DC1DAE781500712EDD;
 			productRefGroup = 1BBD90E61DAE781500712EDD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1B68A93C1DAE7AB300DF2F38 /* Products */;
+					ProjectRef = 1B68A93B1DAE7AB300DF2F38 /* ISHPermissionKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1BBD90E41DAE781500712EDD /* ISHPermissionKitSampleApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1B68A9421DAE7AB300DF2F38 /* ISHPermissionKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ISHPermissionKit.framework;
+			remoteRef = 1B68A9411DAE7AB300DF2F38 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B68A9441DAE7AB300DF2F38 /* libISHPermissionKitLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libISHPermissionKitLib.a;
+			remoteRef = 1B68A9431DAE7AB300DF2F38 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B68A9461DAE7AB300DF2F38 /* ISHPermissionKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ISHPermissionKitTests.xctest;
+			remoteRef = 1B68A9451DAE7AB300DF2F38 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1BBD90E31DAE781500712EDD /* Resources */ = {
@@ -164,6 +267,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1B68A94A1DAE7AEA00DF2F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISHPermissionKit;
+			targetProxy = 1B68A9491DAE7AEA00DF2F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		1BBD90F61DAE781500712EDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -178,6 +289,7 @@
 /* Begin XCBuildConfiguration section */
 		1BBD90FA1DAE781500712EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B68A94D1DAE7B2A00DF2F38 /* ISHPermissionKitAppConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -226,6 +338,7 @@
 		};
 		1BBD90FB1DAE781500712EDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B68A94D1DAE7B2A00DF2F38 /* ISHPermissionKitAppConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
