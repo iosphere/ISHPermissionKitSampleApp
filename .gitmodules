@@ -1,0 +1,3 @@
+[submodule "submodules/ISHPermissionKit"]
+	path = submodules/ISHPermissionKit
+	url = git@github.com:iosphere/ISHPermissionKit.git
