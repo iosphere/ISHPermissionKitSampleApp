@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode8
+install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
+script:
+  - set -o pipefail
+# Build sample app target and clean all targets between builds
+  - xcodebuild -project ISHPermissionKitSampleApp.xcodeproj -scheme ISHPermissionKitSampleApp -destination 'platform=iOS Simulator,name=iPhone 6' -derivedDataPath build/ISHPermissionKitSampleApp clean build | xcpretty
