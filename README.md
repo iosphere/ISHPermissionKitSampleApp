@@ -1,5 +1,7 @@
 # <img src="icon.png" align="center" width="40" height="40"> ISHPermissionKitSampleApp
 
+[![Travis Build Status](https://travis-ci.org/iosphere/ISHPermissionKitSampleApp.svg?branch=master)](http://travis-ci.org/iosphere/ISHPermissionKitSampleApp)
+
 This app demonstrates how to integrate and use [*ISHPermissionKit*](https://github.com/iosphere/ISHPermissionKit):
 
 > A polite and unified way of asking for permission on iOS
