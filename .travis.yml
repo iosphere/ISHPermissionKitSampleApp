@@ -1,5 +1,16 @@
 language: objective-c
 osx_image: xcode8
+
+# https://gist.github.com/iedemam/9830045
+# disable the default submodule logic
+git:
+  submodules: false
+
+# use sed to replace the SSH URL with the public URL, then init and update submodules
+before_install:
+  - sed -i '' 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+
 install:
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
