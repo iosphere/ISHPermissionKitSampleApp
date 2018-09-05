@@ -34,7 +34,7 @@
             text = @"Smile and grant us access to your camera.";
             break;
 
-        case ISHPermissionCategoryPhotoLibrary:
+        case ISHPermissionCategoryModernPhotoLibrary:
             title = @"Photos";
             text = @"We would love to save pictures to your camera roll. Please give us acccess to your photo library.";
             break;
