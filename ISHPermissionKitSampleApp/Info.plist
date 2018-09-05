@@ -48,6 +48,8 @@
 	<string>Explain why you use reminders</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Explain why you use speech recognition</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Explain why you use the location (always or when in use)</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>

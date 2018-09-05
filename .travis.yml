@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode10
 
 # https://gist.github.com/iedemam/9830045
 # disable the default submodule logic
@@ -17,4 +17,4 @@ install:
 script:
   - set -o pipefail
 # Build sample app target and clean all targets between builds
-  - xcodebuild -project ISHPermissionKitSampleApp.xcodeproj -scheme ISHPermissionKitSampleApp -destination 'platform=iOS Simulator,name=iPhone 6' -derivedDataPath build/ISHPermissionKitSampleApp clean build | xcpretty
+  - xcodebuild -project ISHPermissionKitSampleApp.xcodeproj -scheme ISHPermissionKitSampleApp -destination 'platform=iOS Simulator,name=iPhone 8' -derivedDataPath build/ISHPermissionKitSampleApp clean build | xcpretty

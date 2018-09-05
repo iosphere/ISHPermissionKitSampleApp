@@ -49,7 +49,6 @@
              @(ISHPermissionCategoryLocationAlways),
 
              @(ISHPermissionCategoryMicrophone),
-             @(ISHPermissionCategoryPhotoLibrary),
              @(ISHPermissionCategoryModernPhotoLibrary),
              @(ISHPermissionCategoryPhotoCamera),
              @(ISHPermissionCategoryNotificationLocal),
@@ -63,7 +62,6 @@
              // TODO: alert cannot be presented
              @(ISHPermissionCategorySocialTencentWeibo),
 
-             @(ISHPermissionCategoryAddressBook),
              @(ISHPermissionCategoryContacts),
              @(ISHPermissionCategoryEvents),
              @(ISHPermissionCategoryReminders),
@@ -153,7 +151,7 @@
     }
 }
 
-#pragma mark Important for local Notifications
+#pragma mark Important for Local Notifications
 
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
     [[NSNotificationCenter defaultCenter] postNotificationName:ISHPermissionNotificationApplicationDidRegisterUserNotificationSettings
